@@ -72,7 +72,7 @@ class ProfileHeaderView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .lightGray
+        //backgroundColor = .lightGray
         statusTextField.delegate = self
         setupViews()
         setupTable()
